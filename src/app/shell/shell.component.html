@@ -1,0 +1,36 @@
+<mat-toolbar class="header-item" style="margin: 0px !important" fxLayout="row" fxFlexAlign="center center">
+    <!-- Fill Left Side -->
+    <div fxFlex fxFlexFill></div>
+
+    <!-- Toolbar Center Container -->
+    <div class="container" fxFlex="50" style="display: flex">
+
+        <!-- Home Button -->
+        <button
+            type="button"
+            routerLink="/"
+            aria-label="Home Button"
+            mat-button
+            class="header-item">
+            <span>Peer2Peer Demo</span>
+        </button>
+
+        <!-- Make a gap between buttons on left and right -->
+        <span class="fill-remaining-space"></span>
+
+        <!-- Options Button -->
+        <button  
+            type="button"
+            aria-label="About Button"
+            mat-button
+            class="header-item">
+            <span>About</span>
+        </button>
+
+    </div>
+    <!-- End of Toolbar Center Container -->
+
+    <!-- Fill Right Side -->
+    <div fxFlex fxFlexFill></div>
+
+  </mat-toolbar>

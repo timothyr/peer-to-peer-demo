@@ -1,0 +1,21 @@
+<section class="mat-typography" style="margin-top: 20px">
+    <h1>My id - {{myPeerId}}</h1>
+</section>
+
+<div>
+    <mat-form-field>
+        <input matInput type="text" placeholder="Remote Peer ID" [(ngModel)]="remotePeerId">
+    </mat-form-field>
+    <button mat-raised-button aria-label="Connect Button" (click)="connect()">
+        Connect
+    </button>
+</div>
+<div>
+    <mat-form-field>
+        <input matInput type="text" placeholder="Message" [(ngModel)]="msg">
+    </mat-form-field>
+    <button [disabled]="!msg" mat-raised-button aria-label="Send Button" (click)="sendMsg()">
+        Send Msg
+    </button>
+</div>
+<pre>{{messageLog}}</pre>
