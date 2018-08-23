@@ -2,6 +2,8 @@
 
 Uses PeerJS to communicate between different browsers using WebRTC. 
 
+![Peer to Peer demo](peer2peer.png?raw=true "Peer to Peer demo")
+
 ## Getting Started
 
 This demo was built using the [Angular6 Prerender Starter](https://github.com/timothyr/angular6-prerender-starter)
